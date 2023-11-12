@@ -10,8 +10,8 @@ class MyBottomNavBar extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
-      margin: const EdgeInsets.all(25),
-      child: GNav(
+        margin: const EdgeInsets.all(25),
+        child: GNav(
         onTabChange: (value) => onTabChange!(value),
         color: Colors.grey[400],
         mainAxisAlignment: MainAxisAlignment.center,
