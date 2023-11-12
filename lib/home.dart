@@ -30,7 +30,12 @@ class _HomeAppsState extends State<HomeApps> {
       bottomNavigationBar: MyBottomNavBar(
       onTabChange: (index) => navigateBottomBar(index),
       ),
-      body: Container(
+      body: Center(
+        child: Container(
+          decoration: BoxDecoration(
+            border: Border.all(color: Colors.black,width: 1.0)
+          ),
+        ),
       ),
     );
   }  

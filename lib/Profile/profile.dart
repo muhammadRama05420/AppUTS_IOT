@@ -29,7 +29,6 @@ class _profilePageState extends State<profilePage> {
                 borderRadius: BorderRadius.circular(50),
                 color: const Color(0xFFEB1555),
               ),
-              child: const Align(child: Text("Get Started!", style: TextStyle(color: Colors.white),)),
             ),
           ),
         ),
